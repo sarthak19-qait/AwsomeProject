@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+#heading{
+    color: #484848;
+    font-size: 36px;
+    text-align: center;
+    padding: 26px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+
+}
+#container{ 
+    margin-left: 250px;
+    margin-right: 250px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: #484848;
+}
+#border1{
+    border-bottom: 1px solid rgba(72,72,72,0.4);
+    width: 200px;
+    height: 10px;
+}
+#border2{
+    border-bottom: 1px solid rgba(72,72,72,0.4);
+    width: 200px;
+    height: 10px;
+}
+#image1{
+    background: url("./images/fam_blur.jpg") center 30% no-repeat;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p11{
+    font-size: 55px;
+    line-height: 100px;
+    color: white;
+    font-family: 'Alice', serif;
+    font-weight: bold;
+}
+.p22{
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.anchor{
+    background: #f00;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    word-spacing: 2px;
+}
+.hii{
+    margin: 0 15%;
+    padding: 10px;
+}
+.p1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #484848;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 3rem;
+    font-family: 'Alice', serif;
+}
+.p2{
+    color: #484848;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 3rem;
+    font-family: 'Alice', serif;
+}
+.p3{
+    color: rgba(0,0,0,0.4);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+#button{
+    display: flex;
+    justify-content: center;
+
+}
+.yo{
+    margin: 0 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.p4{
+    line-height: 2rem;
+}
+.border{
+    margin: 80px 20%;
+    border-bottom: 1px solid rgba(72,72,72,0.4);
+}
+table,tr,th,td{
+    border: 1px solid rgba(72,72,72,0.4);
+    border-collapse: collapse;
+    padding: 5px;
+}
+tr:nth-child(even){
+    background: rgb(211,211,211);
+}
+tr:nth-child(odd){
+    background: white
+}
+.row{
+    background: rgb(211,211,211);
+}
+.colspan{
+    font-size: 0.9rem;
+    background: white;
+}
+#image2{
+    background: url("./images/us_left_web_30.jpg") center 30% no-repeat;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.oouch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    margin-bottom: -60px;
+}
+.alag{
+    color: red;
+    font-size: 26px;
+    font-family: 'Alice', serif;
+    text-align: center;
+}
+.udha{
+    margin-top: 15px;
+    color: red;
+    font-size: 36px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+.udha:hover{
+    color: blue;
+}
+.sarthak{
+    margin:-50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blue{
+    color: blue;
+}
+.blue:hover{
+    text-decoration: underline;
+}
